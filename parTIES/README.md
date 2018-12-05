@@ -12,10 +12,8 @@
 
 
 ##  Usage
-1. Static - ./static <inputGraphFile> <outputGraphFile> <samplingRatio> <numThreads>(optional)
-1. Dynamic - ./dynamic <inputGraphFile> <outputGraphFile> <samplingRatio> <numThreads>(optional)
+1. Static - ./static "inputGraphFile" "outputGraphFile" "samplingRatio" "numThreads"(optional)
+1. Dynamic - ./dynamic "inputGraphFile" "outputGraphFile" "samplingRatio" "numThreads"(optional)
     
-           Algorithm used is TIES (Totally induced edge sampling), based on 
-    Compile with: g++ -std=c++11 -fopenmp ties_parallel.cpp -o ties_parallel.o
 
 
